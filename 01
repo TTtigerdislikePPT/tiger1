@@ -1,7 +1,28 @@
-echo "# tiger1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/TTtigerdislikePPT/tiger1.git
-git push -u origin main
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. 安装package openai\n",
+    "    ! pip install openai"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "version = 1.12.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "import openai \n",
+    "print(\"version =\",openai.__version__)"
+   ]
+  },
